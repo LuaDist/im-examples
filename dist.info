@@ -1,0 +1,80 @@
+type = "x86"
+arch = "Windows"
+author = "Antonio Scuri"
+depends = {
+[[lua ~> 5.1]],
+[[im >= 3.8]],
+[[cd >= 5.5]],
+[[iup >= 3.5]],
+[[luafilesystem >= 1.0]],
+[[luagl >= 1.0]],
+}
+
+desc = "Examples for IM - a toolkit for Digital Imaging."
+version = "3.8"
+maintainer = "Peter Kapec"
+files = {
+Runtime = {
+[[lib\lua\view_image.lua]],
+}
+,
+Example = {
+[[share\im-examples\example\im_paint.exe]],
+[[share\im-examples\example\im_view.exe]],
+[[share\im-examples\example\iupglview.exe]],
+[[share\im-examples\example\im_copy.exe]],
+[[share\im-examples\example\im_info.exe]],
+[[share\im-examples\example\memfile.exe]],
+[[share\im-examples\example\proc_fourier.exe]],
+[[share\im-examples\example\\Lua\1frame_avi.lua]],
+[[share\im-examples\example\\Lua\analyze.lua]],
+[[share\im-examples\example\\Lua\animate_gif.wlua]],
+[[share\im-examples\example\\Lua\canny.lua]],
+[[share\im-examples\example\\Lua\capture.lua]],
+[[share\im-examples\example\\Lua\combine4-10x15.lua]],
+[[share\im-examples\example\\Lua\combine9.wlua]],
+[[share\im-examples\example\\Lua\combine9view.wlua]],
+[[share\im-examples\example\\Lua\copyplane.lua]],
+[[share\im-examples\example\\Lua\error.lua]],
+[[share\im-examples\example\\Lua\fft.lua]],
+[[share\im-examples\example\\Lua\getpalette.lua]],
+[[share\im-examples\example\\Lua\hdtv_resize.lua]],
+[[share\im-examples\example\\Lua\hough_lines.lua]],
+[[share\im-examples\example\\Lua\index.lua]],
+[[share\im-examples\example\\Lua\info.lua]],
+[[share\im-examples\example\\Lua\info_serialize.lua]],
+[[share\im-examples\example\\Lua\makevideo.lua]],
+[[share\im-examples\example\\Lua\merge_rgb.lua]],
+[[share\im-examples\example\\Lua\multicrop.lua]],
+[[share\im-examples\example\\Lua\multicrop_avi.lua]],
+[[share\im-examples\example\\Lua\multicrop_gif.lua]],
+[[share\im-examples\example\\Lua\multimorpho.lua]],
+[[share\im-examples\example\\Lua\palette.lua]],
+[[share\im-examples\example\\Lua\process.lua]],
+[[share\im-examples\example\\Lua\process_new.lua]],
+[[share\im-examples\example\\Lua\render.lua]],
+[[share\im-examples\example\\Lua\render_cd.lua]],
+[[share\im-examples\example\\Lua\render_cd_bgalpha.lua]],
+[[share\im-examples\example\\Lua\rotate_transparent.lua]],
+[[share\im-examples\example\\Lua\screencapture.lua]],
+[[share\im-examples\example\\Lua\show_flower.wlua]],
+[[share\im-examples\example\\Lua\show_image_touch.wlua]],
+[[share\im-examples\example\\Lua\sobel.lua]],
+[[share\im-examples\example\\Lua\stats.lua]],
+[[share\im-examples\example\\Lua\videocapture.wlua]],
+[[share\im-examples\example\\Lua\view.wlua]],
+[[share\im-examples\example\\Lua\viewGL.wlua]],
+}
+,
+Data = {
+[[share\im-examples\\images\flower.gif]],
+[[share\im-examples\\images\flower.jpg]],
+[[share\im-examples\\images\lena.jpg]],
+[[share\im-examples\\images\rice.png]],
+}
+,
+}
+
+license = "Tecgraf Library License/MIT"
+name = "im-examples"
+url = "http://www.tecgraf.puc-rio.br/im"
